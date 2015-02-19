@@ -1,5 +1,5 @@
 # GroovyMN's Lighting Talk reveal.js fork
-A template to use for lighting talks
+A template to use for lighting talks which includes Groovy MN logos and [fontawesome](http://fortawesome.github.io/Font-Awesome).
 
 # reveal.js [![Build Status](https://travis-ci.org/hakimel/reveal.js.svg?branch=master)](https://travis-ci.org/hakimel/reveal.js)
 
