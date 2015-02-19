@@ -1,0 +1,59 @@
+/*
+@font-size-base:              14px;
+@body-gradient-start:         #eee;
+@body-gradient-end:           #888;
+@text-color:                  #333;
+
+@logo-width:                  742px;
+@logo-height:                 267px;
+@logo-default-scale:          0.3;
+@logo-default-opacity:        0.5;
+@logo-overview-opacity:       0.1;
+@logo-red-color:              #ee311d;
+
+@link-color:                  darken(desaturate(@logo-red-color, 20%), 10%);
+@link-hover-color:            desaturate(@link-color, 10%);
+@link-roll-bg:                darken(desaturate(@logo-red-color, 20%), 25%);
+@nav-arrow-color:             darken(desaturate(@logo-red-color, 20%), 10%);
+@nav-arrow-hover-color:       desaturate(lighten(@nav-arrow-color, 10%), 10%);
+
+@progress-color:              darken(desaturate(@logo-red-color, 20%), 10%);;
+
+body {
+  .gradient(radial-gradient(center, circle cover, @body-gradient-start 0%, @body-gradient-end 100%));
+}
+
+.reveal {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  color: @text-color;
+}
+*/
+
+.reveal .groovymn-logo {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  /*width: floor(420px * 0.3);*/
+  /*height: floor(420px * 0.3);*/
+  width: 420px;
+  height: 420px;
+  background-image: url('../img/groovymn-1.png');
+  background-repeat: no-repeat;
+  background-position:left top;
+  background-size: 100%;
+  opacity: 0.5;
+  /*.transition(~"left 0.7s ease, opacity 0.7s ease");*/
+}
+
+/*.index-slide .groovymn-logo {
+  left: -420px + 50px;
+  opacity: 0.5;
+}*/
+
+/*.overview .groovymn-logo {
+  left: 50px;
+  opacity: 0.1;
+}*/
